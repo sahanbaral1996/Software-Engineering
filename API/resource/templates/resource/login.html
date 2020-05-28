@@ -1,0 +1,23 @@
+{% extends 'resource/base.html' %}
+
+{% block body %}
+<div id="login" class="container-fluid bg-white">
+  {% for message in messages %}{% if messages %}<p><strong>{{ message }}</strong></p>{% endif %}{% endfor %}
+<form action="{% url 'resource:authenticate' %}" method="POST">
+  {% csrf_token %}
+  <div class="form-group">
+    <label for="email">user name:</label>
+    <input type="text" class="form-control" id="email" name="user_name">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" name="password">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+  </div>
+{% endblock %}
+
