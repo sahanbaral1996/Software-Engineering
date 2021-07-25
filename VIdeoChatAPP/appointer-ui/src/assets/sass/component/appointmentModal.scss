@@ -1,0 +1,34 @@
+.appointmentModal_container {
+	position: fixed;
+	left: 40%;
+	top: 40%;
+	width: 60vh;
+	height: 40vh;
+	border: 1px solid black;
+	display: none;
+	border-radius: 5px;
+	z-index: 99;
+	background-color: White;
+}
+
+.appointmentModal {
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.appointmentModal_Form {
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.form_element {
+	margin-top: 10px;
+}
+.modal_header {
+	background-color: #088f8f;
+}
+
+.modal_close {
+	position: absolute;
+	right: 0;
+}

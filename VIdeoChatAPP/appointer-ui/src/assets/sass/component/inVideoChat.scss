@@ -1,0 +1,18 @@
+.chat-room-container {
+	position: fixed;
+	top: 20%;
+	left: 30%;
+	background-color: white;
+}
+
+.chat-room-text {
+	bottom: 0;
+	border: 2px solid yellow;
+	display: flex;
+	justify-content: space-between;
+}
+
+.chat-room-text-container {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.channel-list-container {
+	top: 10%;
+	width: 50vh;
+	height: 72vh;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+.channel {
+	margin-top: 20px;
+}
