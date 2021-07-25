@@ -1,0 +1,27 @@
+{
+  "name": "appointer-backend",
+  "version": "1.0.0",
+  "description": "Server-side code for Appointer",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "yarn test",
+    "start": "nodemon src/app.ts"
+  },
+  "author": "sahan Baral",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.4.0",
+    "@types/socket.io": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "node-modules": "^1.0.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^3.10.1"
+  }
+}
